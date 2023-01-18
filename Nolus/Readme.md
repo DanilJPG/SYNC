@@ -104,6 +104,8 @@ rm wasmonly.tar.lz4
 
 systemctl restart nolusd && journalctl -fu nolusd -o cat
 ```
+#### Snapshot
+```
 sudo apt update
 sudo apt install snapd -y
 sudo snap install lz4
