@@ -119,5 +119,6 @@ sudo systemctl stop nolusd
 nolusd tendermint unsafe-reset-all --home $HOME/.nolus --keep-addr-book
 curl -L https://snap.nodeist.net/t/nolus/nolus.tar.lz4 | lz4 -dc - | tar -xf - -C $HOME/.nolus --strip-components 2
 ```
+```
 sudo systemctl start nolusd && journalctl -u nolusd -f --no-hostname -o cat
 ```
